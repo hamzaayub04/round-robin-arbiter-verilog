@@ -157,11 +157,3 @@ The testbench also prints `req` and `grant` every clock cycle and writes a wavef
 6. J. Hennessy & D. Patterson, *Computer Architecture: A Quantitative Approach*, Morgan Kaufmann.
 
 ---
-
-## Author
-
-*Your name here*: add your name, university, and contact/LinkedIn.
-
-## License
-
-Add a license of your choice (e.g. MIT) or remove this section.
