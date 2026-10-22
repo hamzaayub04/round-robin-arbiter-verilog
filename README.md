@@ -35,8 +35,9 @@ A 4-way **Round-Robin Arbiter** written in **Verilog HDL** and simulated in **Mo
 ```
 round-robin-arbiter/
 ├── images/
-│   ├── block_diagram.png
-│   └── simulation_waveform.png
+│   ├── ModelSim simulation waveform.png
+│   └── Round-robin arbiter block diagram.png
+├── .gitignore
 ├── rr_arbiter.v        # Arbiter design
 ├── tb_rr_arbiter.v     # Testbench
 └── README.md
@@ -46,7 +47,7 @@ round-robin-arbiter/
 
 ## Block Diagram
 
-![Round-robin arbiter block diagram](images/Round-robin arbiter block diagram.png)
+![Round-robin arbiter block diagram](images/Round-robin%20arbiter%20block%20diagram.png)
 
 ---
 
@@ -131,7 +132,7 @@ gtkwave rr_arbiter_tb.vcd
 | 4 | No requests | `grant = 0000` |
 | 5 | Burst pattern: `0010`, then `0110`, then `1001` | Grant follows the active requests without starvation |
 
-![Simulation waveform](images/ModelSim simulation waveform.png)
+![ModelSim simulation waveform](images/ModelSim%20simulation%20waveform.png)
 
 The testbench also prints `req` and `grant` every clock cycle and writes a waveform file, `rr_arbiter_tb.vcd`.
 
@@ -154,3 +155,13 @@ The testbench also prints `req` and `grant` every clock cycle and writes a wavef
 4. FreeCores Project, "Round-Robin Arbiter Repository," GitHub.
 5. K. Skadron, "Fair Queueing and Arbitration Techniques in On-Chip Networks," IEEE Transactions on VLSI Systems, 2019.
 6. J. Hennessy & D. Patterson, *Computer Architecture: A Quantitative Approach*, Morgan Kaufmann.
+
+---
+
+## Author
+
+*Your name here*: add your name, university, and contact/LinkedIn.
+
+## License
+
+Add a license of your choice (e.g. MIT) or remove this section.
