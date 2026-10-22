@@ -46,7 +46,7 @@ round-robin-arbiter/
 
 ## Block Diagram
 
-![Round-robin arbiter block diagram](images/block_diagram.png)
+![Round-robin arbiter block diagram](images/Round-robin arbiter block diagram.png)
 
 ---
 
@@ -131,7 +131,7 @@ gtkwave rr_arbiter_tb.vcd
 | 4 | No requests | `grant = 0000` |
 | 5 | Burst pattern: `0010`, then `0110`, then `1001` | Grant follows the active requests without starvation |
 
-![Simulation waveform](images/simulation_waveform.png)
+![Simulation waveform](images/ModelSim simulation waveform.png)
 
 The testbench also prints `req` and `grant` every clock cycle and writes a waveform file, `rr_arbiter_tb.vcd`.
 
